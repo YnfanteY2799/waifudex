@@ -1,8 +1,6 @@
-import app from "./app/app";
-import { DbConnection } from "./database/db";
+import app from "./app/backend";
 
 const _PORT = 3090;
 
-DbConnection();
 app.listen(_PORT);
 console.log(`App running on Port : ${_PORT}`);

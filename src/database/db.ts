@@ -1,3 +1,6 @@
-export function DbConnection() {
-  console.log(`Db Connection Goes Here `);
+import { PrismaClient } from "@prisma/client";
+
+export async function DbConnection(client: PrismaClient) {
+
+  
 }
