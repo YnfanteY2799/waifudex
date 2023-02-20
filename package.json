@@ -12,6 +12,7 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "morgan": "^1.10.0",
+    "prisma": "^4.10.1",
     "zod": "^3.20.6"
   },
   "name": "waifudex",
